@@ -1,0 +1,465 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+.clear{zoom:1;}
+.clear:after{content:"";display:block;clear:both;}
+
+
+-webkit-transition: all 2s;
+-moz-transition: all 2s;
+-ms-transition: all 2s;
+-o-transition: all 2s;
+
+#margin{
+		width:1349px;
+		position: relative;
+	}
+/*--------------------------左下送终鸡-----------------------------*/
+	/*.szj*/
+		.ai {
+			position: absolute;
+			left: 130px;
+			top:-130px;
+		}
+		.ai img {
+			vertical-align: middle;
+			border: 0;
+			width: 181px;
+			height: 173px;
+			z-index: 501;
+			
+		}
+		.ai .close {
+			width:30px;
+			height:30px;
+			position: absolute;
+			right: 0px;
+			bottom: 0px;
+			z-index: 502;
+		}
+		.szj{
+			position:fixed;
+			left: 20px;
+			bottom:20px;
+			z-index: 501;
+		}
+		.szj .download{
+			position: absolute;
+			bottom: 0;
+			width: 149px;
+			height: 40px;
+			left: 17px;
+			color: #000;
+			z-index: 501;
+		}
+/*------------------------------------签到遮罩------------------------------------*/
+		.appwrap {
+			position: fixed;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background: rgba(29,29,29,0.5);
+			z-index: 3000;
+		}
+		.signme {
+			width: 560px;
+			height: 400px;
+			background: #fff;
+			z-index: 9999;
+			position: relative;
+			margin: 0 auto;
+			top: 150px;
+			border-radius: 18px;
+		}
+		.downapp {
+			text-align: center;
+			padding-top: 38px;
+			font-family: "microsoft yahei";
+			font-size: 24px;
+			color: #666;
+			z-index: 3000;
+		}
+		.signme .closeapp {
+			width: 40px;
+			height: 48px;
+			background: url(../../imgs/trangle@1x.png) 0 0 no-repeat;
+			display: inline-block;
+			z-index: 9999;
+			position: absolute;
+			top: 0;
+			right: 0;
+			border-top-right-radius: 18px;
+		}
+		.signme .closeicon {
+			width: 40px;
+			height: 48px;
+			background: url(../../imgs/closeicon@1x.png) 0 0 no-repeat;
+			display: inline-block;
+			z-index: 9999;
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin: 10px -17px;
+		}
+		.signme .qrcode {
+			width: 200px;
+			height: 203px;
+			background: url(../../imgs/qrcode@1x.jpg) 0 0 no-repeat;
+			display: inline-block;
+			position: relative;
+			top: 36px;
+			left: 180px;
+			background-size: 100%;
+		}
+		.signme p {
+			font-family: "microsoft yahei";
+			font-size: 18px;
+			position: relative;
+			text-align: center;
+			top: 50px;
+			height: 19px;
+		}
+		.MErule {
+			z-index: 9999;
+			position: relative;
+			top: 80px;
+		}
+
+    
+/*----------------------------网页底部----------------------------*/
+	#select {
+	    width: 1349px;
+	    height: 190px;
+	    text-align: center;
+	    
+	    
+	}
+	
+	#select dl {
+		background-color: #f3f1f2;
+	    float: left;
+	    padding-left: 15px;
+	    width: 322px;
+	    height: 190px;
+	}
+	
+	#select dl dt img {
+	    display: block;
+	    margin-top: 40px;
+	}
+	
+	#select dl dd a {
+		text-align: center;
+	    display: block;
+	    margin-top: 10px;
+	    font-size: 20px;
+	    font-weight: bold;
+	    color: black;
+	    position: relative;
+	}
+	
+	
+	#select dl dd a:hover {
+	    color: red;
+	}
+	
+	#bottom {
+	    float: left;
+	    width: 1349px;
+	    height: 325px;
+	    border-bottom: 1px solid gainsboro;
+	}
+	
+	#bottom .bottom-1 {
+	    width: 400px;
+	    float: left;
+	    height: 325px;
+	    text-align: center;
+	}
+	
+	#bottom .bottom-2 {
+	    width: 872px;
+	    float: left;
+	    height: 325px;
+	    text-align: center;
+	}
+	
+	#bottom .bottom-2 dl {
+	    width: 214px;
+	    float: left;
+	    text-align: center;
+	    margin-top: 40px;
+	}
+	
+	#bottom .bottom-2 .dl-1 {
+	    height: 150px;
+	    border-left: 1px solid gainsboro;
+	}
+	
+	#bottom .bottom-2 .dl-2 {
+	    height: 250px;
+	    border-left: 1px solid gainsboro;
+	}
+	
+	#bottom .bottom-2 .dl-3 {
+	    height: 111px;
+	    border-left: 1px solid gainsboro;
+	}
+	
+	#bottom .bottom-2 .dl-4 {
+	    height: 145px;
+	    border-left: 1px solid gainsboro;
+	}
+	
+	#bottom .bottom-2 dl dt a {
+	    font-size: 20px;
+	    color: black;
+	    font-weight: bold;
+	}
+	
+	#bottom .bottom-2 dl dd a {
+	    display: block;
+	    font-size: 16px;
+	    color: black;
+	    line-height: 35px;
+	    margin-top: 10px;
+	}
+	
+	#bottom .bottom-2 dl a:hover {
+	    color: red;
+	}
+	
+	#phone {
+	    width: 1349px;
+	    height: 80px;
+	    float: left;
+	    text-align: center;
+	    border-bottom: 1px solid gainsboro;
+	}
+	
+	#phone p {
+	    margin-top: 15px;
+	    font-size: 16px;
+	    color: black;
+	    font-weight: bold;
+	    line-height: 30px;
+	}
+	
+	#phone span {
+	    margin-left: 30px;
+	}
+	
+	#copy {
+	    width: 1349px;
+	    height: 52px;
+	    float: left;
+	}
+	
+	#copy .copy-1 {
+	    float: left;
+	    width: 580px;
+	    line-height: 52px;
+	    height: 52px;
+	    text-align: center;
+	}
+	
+	#copy .copy-2 {
+	    padding-left: 52px;
+	    float: left;
+	    width: 640px;
+	    line-height: 52px;
+	    height: 52px;
+	    background: url(../../imgs/icon.gif) no-repeat center left;
+	}
+	
+	#copy p {
+	    font-size: 12px;
+	}
+	
+	
+/*---------------------------侧边栏-------------------------------*/
+/*aside*/	
+		#aside{
+			position:fixed;
+			width:40px;
+			height:100%;
+			opacity: 0.8;
+			background:#b7abab;
+			right:0;
+			top:0;
+			display:block;
+			z-index: 400;
+		}
+		#aside .cart {
+		position: absolute;
+		width: 40px;
+		height: 100%;
+		background: rgba(3,3,3,0.5);
+		z-index: 400;
+	}
+	
+	#aside .cart ul li:hover {
+		background: #ed145b;
+	}
+	
+	#aside .cart ul .me-cart {
+		height: 110px;
+		padding-bottom: 20px;
+		position: relative;
+		display: block;
+		top: 120px;
+	}
+	
+	#aside .cart ul .me-cart .me-smallIcon {
+		position: absolute;
+		width: 38px;
+		height: 26px;
+		background: url("../../imgs/carts.png") no-repeat 6px 4px;
+		display: inline-block;
+		top: 22px;
+		left: 1px;
+	}
+	
+	#aside .cart ul .me-cart .buy {
+		position: absolute;
+		top: 16px;
+		width: 16px;
+		display: block;
+		height: 48px;
+		margin: 38px 0 0 14px;
+		cursor: pointer;
+		color: #fff;
+	}
+	
+	#aside .cart ul .me-cart .cart-num {
+		position: absolute;
+		top: 106px;
+		width: 21px;
+		height: 21px;
+		display: block;
+		border-radius: 50%;
+		background: #f0f;
+		text-align: center;
+		line-height: 21px;
+		margin: 9px 0px 0px 10px;
+		cursor: pointer;
+		color: #fff;
+		visibility: hidden;
+	}
+	
+	#aside .cart ul .me-login {
+		position: relative;
+		display: block;
+		height: 40px;
+		padding-bottom: 6px;
+		z-index: 1;
+	}
+	
+	#aside .cart ul .me-login {
+		position: relative;
+		display: block;
+		top: 150px;
+		height: 40px;
+	}
+	
+	#aside .cart ul .me-login .userIcon {
+		position: absolute;
+		width: 34px;
+		height: 22px;
+		background: url("../../imgs/carts.png") no-repeat -25px 1px;
+		display: inline-block;
+		top: 12px;
+		left: 2px;
+	}
+	
+	#aside .cart ul .me-favorite {
+		position: relative;
+		display: block;
+		top: 160px;
+		height: 40px;
+		margin-top: 6px;
+	}
+	
+	#aside .cart ul .me-favorite .favoriteIcon {
+		position: absolute;
+		width: 34px;
+		height: 22px;
+		background: url("../../imgs/carts.png") no-repeat -52px 1px;
+		display: inline-block;
+		top: 10px;
+		left: 2px;
+	}
+	
+	#aside .cart ul .mbar-center {
+		position: relative;
+		display: block;
+		top: 170px;
+		height: 40px;
+		margin-top: 6px;
+	}
+	
+	#aside .cart ul .mbar-center .assetIcon {
+		position: absolute;
+		width: 32px;
+		height: 24px;
+		background: url("../../imgs/carts.png") no-repeat -79px 1px;
+		display: inline-block;
+		top: 8px;
+		left: 3px;
+	}
+	
+	#aside .cart ul .me-support {
+		position: relative;
+		display: block;
+		top: 250px;
+		height: 40px;
+		margin-top: 6px;
+	}
+	
+	#aside .cart ul .me-support .supportIcon {
+		position: absolute;
+		width: 32px;
+		height: 24px;
+		background: url("../../imgs/carts.png") no-repeat -106px 1px;
+		display: inline-block;
+		top: 8px;
+		left: 2px;
+	}
+	
+	#aside .cart ul .me-gotop {
+		position: relative;
+		display: block;
+		top: 260px;
+		height: 40px;
+		margin-top: 6px;
+	}
+	
+	#aside .cart ul .me-gotop .gotopIcon {
+		position: absolute;
+		width: 32px;
+		height: 28px;
+		background: url("../../imgs/carts.png") no-repeat 3px -29px;
+		display: inline-block;
+		top: 8px;
+		left: 3px;
+	}
+
+
